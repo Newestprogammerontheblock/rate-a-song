@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 const PORT = process.env.PORT || 8080;
 let responseType = "code"
-let redirectURI = "https://wild-cases-like.loca.lt/redirect"
+let redirectURI = "https://rate-a-song.onrender.com/redirect"
 let code_challenge_method = "S256"
 let userToken = {}
 const codeVerifiers = {}
