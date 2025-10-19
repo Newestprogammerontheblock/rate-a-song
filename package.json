@@ -1,0 +1,18 @@
+{
+  "name": "rate-a-song",
+  "version": "1.0.0",
+  "description": "rate a song",
+  "license": "ISC",
+  "author": "Myra",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "spotify-preview-finder": "^2.1.0"
+  }
+}
